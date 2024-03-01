@@ -1,7 +1,7 @@
 const submit = document.getElementById("submit");
 function calcColors(){
     var numHSL = parseInt(document.getElementById("numHSL").value);
-    var L = 50;
+    const L = 50;
     var komorka1 = document.getElementById("komorka1");
     var komorka2 = document.getElementById("komorka2");
     var komorka3 = document.getElementById("komorka3");
